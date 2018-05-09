@@ -16,5 +16,8 @@
   "dependencies": {
     "bluebird": "^3.5.1",
     "maxmind": "^2.6.0"
+  },
+  "devDependencies": {
+    "serverless-plugin-warmup": "^3.6.1-rc.1"
   }
 }

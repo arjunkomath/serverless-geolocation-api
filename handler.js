@@ -8,6 +8,11 @@ let cityLookup,
 	countryLookup = null
 
 module.exports.fetchLocationData = async event => {
+	if (event.source === 'serverless-plugin-warmup') {
+		console.log('WarmUP - Lambda is warm!')
+		return Promise.resolve('Lambda is warm!')
+	}
+
 	if (!cityLookup) {
 		cityLookup = await openDb("./GeoLite2-City.mmdb")
 	}
