@@ -1,6 +1,6 @@
 # Serverless Geolocation API
 
-<a href="https://www.mashape.com/arjunkomath/geo-location?&amp;utm_campaign=mashape5-embed&amp;utm_medium=button&amp;utm_source=geo-location&amp;utm_content=anchorlink&amp;utm_term=icon-light"><img src="https://d1g84eaw0qjo7s.cloudfront.net/images/badges/badge-icon-light-9e8eba63.png" width="143" height="38" alt="Mashape"></a>
+<a href="https://market.mashape.com/arjunkomath/geo-location"><img src="https://d1g84eaw0qjo7s.cloudfront.net/images/badges/badge-icon-light-9e8eba63.png" width="143" height="38" alt="Mashape"></a>
 
 ## Creating new project
 
