@@ -21,8 +21,13 @@ module.exports.fetchLocationData = async event => {
 	}
 
 	let ip, cityData, countryData
+	ip = event.requestContext.identity.sourceIp
+
+	if (event.headers && event.headers['X-Forwarded-For']) {
+		ip = event.headers['X-Forwarded-For'].split(',')[0]
+	}
+
 	try {
-		ip = event.requestContext.identity.sourceIp
 		cityData = await cityLookup.get(ip)
 		countryData = await countryLookup.get(ip)
 	} catch (e) {
