@@ -1,6 +1,6 @@
 # Serverless Geolocation API
 
-Read more about this project [https://medium.com/techulus/build-a-geolocation-api-using-aws-lambda-and-maxmind-25dc3cacc324](https://medium.com/techulus/build-a-geolocation-api-using-aws-lambda-and-maxmind-25dc3cacc324).
+<a href="https://www.mashape.com/arjunkomath/geo-location?&amp;utm_campaign=mashape5-embed&amp;utm_medium=button&amp;utm_source=geo-location&amp;utm_content=anchorlink&amp;utm_term=icon-light"><img src="https://d1g84eaw0qjo7s.cloudfront.net/images/badges/badge-icon-light-9e8eba63.png" width="143" height="38" alt="Mashape"></a>
 
 ## Creating new project
 
@@ -11,6 +11,9 @@ With Serverless Framework v1.5 and later, a new project based on the project tem
 > cd myservicename
 > npm install
 ```
+
+## Read more about this project:
+[https://medium.com/techulus/build-a-geolocation-api-using-aws-lambda-and-maxmind-25dc3cacc324](https://medium.com/techulus/build-a-geolocation-api-using-aws-lambda-and-maxmind-25dc3cacc324).
 
 ## License
 
